@@ -1,0 +1,11 @@
+framework module SwiftData {
+  umbrella header "SwiftData.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftData.Swift {
+    header "SwiftData-Swift.h"
+    requires objc
+}
