@@ -25,7 +25,7 @@ class ChatListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Messages".localized
+        self.navigationItem.title = "Messages".localized
         
         //let isAlready = GlobalMethods.isKeyPresentInUserDefaults(key: "userinfo")
         

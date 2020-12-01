@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Home".localized
+        self.navigationItem.title = "Home".localized
         
         dataTableView.delegate = self
         dataTableView.dataSource = self

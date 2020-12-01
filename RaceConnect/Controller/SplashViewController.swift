@@ -28,10 +28,22 @@ class SplashViewController: UIViewController {
     
     @objc func MoveToView() {
             
-        let VC = self.storyboard?.instantiateViewController(withIdentifier: "myTabBar") as! UITabBarController
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
-        appDelegate.window?.rootViewController = VC
+        let isAlready = GlobalMethods.isKeyPresentInUserDefaults(key: "isAlreadyOpen")
         
+        if isAlready {
+            
+            let VC = self.storyboard?.instantiateViewController(withIdentifier: "myTabBar") as! UITabBarController
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            
+            appDelegate.window?.rootViewController = VC
+            
+        }else{
+            
+            let vc = LoginViewController(nibName: "LoginViewController", bundle: nil)
+            self.navigationController!.pushViewController(vc, animated: true)
+            self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+            
+        }
     }
 }

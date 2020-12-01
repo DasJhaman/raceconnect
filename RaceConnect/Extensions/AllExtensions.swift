@@ -158,7 +158,7 @@ extension UITextField {
     
     func setDarkTextField() {
         let attributeString = [
-            NSAttributedString.Key.foregroundColor: GlobalVariables.LightGrayColor,
+            NSAttributedString.Key.foregroundColor: UIColor.white,
             NSAttributedString.Key.font: self.font!
             ] as [NSAttributedString.Key : Any]
         self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: attributeString)

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		56F31B59EB3B1EFD272F42E4 /* Pods_RaceConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA05911133A9774592F988 /* Pods_RaceConnect.framework */; };
+		720A03602576118C005A8466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A035E2576118C005A8466 /* LoginViewController.swift */; };
+		720A03612576118C005A8466 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A035F2576118C005A8466 /* LoginViewController.xib */; };
+		720A036525761495005A8466 /* Pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 720A036225761495005A8466 /* Pass.png */; };
+		720A036625761495005A8466 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 720A036325761495005A8466 /* User.png */; };
+		720A036725761495005A8466 /* Visible.png in Resources */ = {isa = PBXBuildFile; fileRef = 720A036425761495005A8466 /* Visible.png */; };
 		727DDE90256E159E005F8FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727DDE8F256E159E005F8FF4 /* AppDelegate.swift */; };
 		727DDE97256E159E005F8FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727DDE95256E159E005F8FF4 /* Main.storyboard */; };
 		727DDE99256E159F005F8FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727DDE98256E159F005F8FF4 /* Assets.xcassets */; };
@@ -38,6 +43,11 @@
 		727DDF17256E380C005F8FF4 /* HomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727DDF16256E380C005F8FF4 /* HomeExtension.swift */; };
 		727DDF22256E5E9E005F8FF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 727DDF24256E5E9E005F8FF4 /* Localizable.strings */; };
 		729C0773256F753E008FD0B7 /* AllExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C0772256F753E008FD0B7 /* AllExtensions.swift */; };
+		72A0D66325763FE900BA27A2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0D66125763FE900BA27A2 /* SignUpViewController.swift */; };
+		72A0D66425763FE900BA27A2 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0D66225763FE900BA27A2 /* SignUpViewController.xib */; };
+		72A0D66925764AA700BA27A2 /* ClassifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0D66725764AA700BA27A2 /* ClassifiedCollectionViewCell.swift */; };
+		72A0D66A25764AA700BA27A2 /* ClassifiedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72A0D66825764AA700BA27A2 /* ClassifiedCollectionViewCell.xib */; };
+		72A0D66C2576511A00BA27A2 /* ClassifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0D66B2576511A00BA27A2 /* ClassifiedViewController.swift */; };
 		72A572362574D87C000EB59F /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A572332574D878000EB59F /* SwiftData.framework */; };
 		72A572372574D87C000EB59F /* SwiftData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72A572332574D878000EB59F /* SwiftData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		72A572492574F8FF000EB59F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A572472574F8FF000EB59F /* HomeTableViewCell.swift */; };
@@ -76,6 +86,11 @@
 /* Begin PBXFileReference section */
 		3D2589DA20DB2D0D639F9DC8 /* Pods-RaceConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaceConnect.release.xcconfig"; path = "Target Support Files/Pods-RaceConnect/Pods-RaceConnect.release.xcconfig"; sourceTree = "<group>"; };
 		3DEA05911133A9774592F988 /* Pods_RaceConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaceConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720A035E2576118C005A8466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		720A035F2576118C005A8466 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		720A036225761495005A8466 /* Pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pass.png; sourceTree = "<group>"; };
+		720A036325761495005A8466 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		720A036425761495005A8466 /* Visible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Visible.png; sourceTree = "<group>"; };
 		727DDE8C256E159E005F8FF4 /* RaceConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727DDE8F256E159E005F8FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727DDE96256E159E005F8FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +134,11 @@
 		727DDF29256E6101005F8FF4 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Main.strings; sourceTree = "<group>"; };
 		727DDF2A256E6101005F8FF4 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
 		729C0772256F753E008FD0B7 /* AllExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExtensions.swift; sourceTree = "<group>"; };
+		72A0D66125763FE900BA27A2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72A0D66225763FE900BA27A2 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		72A0D66725764AA700BA27A2 /* ClassifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A0D66825764AA700BA27A2 /* ClassifiedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassifiedCollectionViewCell.xib; sourceTree = "<group>"; };
+		72A0D66B2576511A00BA27A2 /* ClassifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedViewController.swift; sourceTree = "<group>"; };
 		72A5721C2574D57B000EB59F /* RaceConnect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaceConnect-Bridging-Header.h"; sourceTree = "<group>"; };
 		72A572332574D878000EB59F /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftData.framework; sourceTree = "<group>"; };
 		72A572472574F8FF000EB59F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -162,6 +182,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		720A035D2576117F005A8466 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				720A035E2576118C005A8466 /* LoginViewController.swift */,
+				720A035F2576118C005A8466 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		727DDE83256E159E005F8FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -183,10 +212,9 @@
 		727DDE8E256E159E005F8FF4 /* RaceConnect */ = {
 			isa = PBXGroup;
 			children = (
+				72A0D66525764A5B00BA27A2 /* CollectionViewCell */,
 				727DDEAE256E164D005F8FF4 /* Extensions */,
-				727DDEAD256E1641005F8FF4 /* CollectionViewCells */,
 				727DDEAC256E1630005F8FF4 /* TableViewCells */,
-				727DDEAB256E1629005F8FF4 /* Model */,
 				727DDEAA256E1624005F8FF4 /* View */,
 				727DDEA9256E161C005F8FF4 /* Controller */,
 				727DDEA8256E160F005F8FF4 /* Extras */,
@@ -203,6 +231,9 @@
 		727DDEA7256E1608005F8FF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				720A036225761495005A8466 /* Pass.png */,
+				720A036325761495005A8466 /* User.png */,
+				720A036425761495005A8466 /* Visible.png */,
 				72A5728225750A7A000EB59F /* Send.png */,
 				72A5724E2574FE8C000EB59F /* Comment.png */,
 				72A5724F2574FE8C000EB59F /* Likes.png */,
@@ -234,12 +265,15 @@
 		727DDEA9256E161C005F8FF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				72A0D66025763FD600BA27A2 /* SignUp */,
+				720A035D2576117F005A8466 /* Login */,
 				727DDEB3256E1696005F8FF4 /* SplashViewController.swift */,
 				727DDEE9256E259E005F8FF4 /* HomeViewController.swift */,
 				72A5726A257508D3000EB59F /* ChatListViewController.swift */,
 				72A57276257509B6000EB59F /* ChatViewController.swift */,
 				727DDF13256E37B8005F8FF4 /* AccountViewController.swift */,
 				72A5728A25751030000EB59F /* ProfileViewController.swift */,
+				72A0D66B2576511A00BA27A2 /* ClassifiedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,13 +287,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		727DDEAB256E1629005F8FF4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		727DDEAC256E1630005F8FF4 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,13 +297,6 @@
 				727DDEB6256E1B21005F8FF4 /* LeftMenu */,
 			);
 			path = TableViewCells;
-			sourceTree = "<group>";
-		};
-		727DDEAD256E1641005F8FF4 /* CollectionViewCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 		727DDEAE256E164D005F8FF4 /* Extensions */ = {
@@ -326,6 +346,32 @@
 				727DDF00256E3448005F8FF4 /* UIViewController+LGSideMenuController.m */,
 			);
 			path = LGSideMenu;
+			sourceTree = "<group>";
+		};
+		72A0D66025763FD600BA27A2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				72A0D66125763FE900BA27A2 /* SignUpViewController.swift */,
+				72A0D66225763FE900BA27A2 /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		72A0D66525764A5B00BA27A2 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				72A0D66625764A7B00BA27A2 /* ClassifiedCell */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		72A0D66625764A7B00BA27A2 /* ClassifiedCell */ = {
+			isa = PBXGroup;
+			children = (
+				72A0D66725764AA700BA27A2 /* ClassifiedCollectionViewCell.swift */,
+				72A0D66825764AA700BA27A2 /* ClassifiedCollectionViewCell.xib */,
+			);
+			path = ClassifiedCell;
 			sourceTree = "<group>";
 		};
 		72A572322574D866000EB59F /* Framework */ = {
@@ -454,7 +500,11 @@
 			files = (
 				727DDECF256E1F20005F8FF4 /* NoOrders.png in Resources */,
 				727DDE9C256E159F005F8FF4 /* LaunchScreen.storyboard in Resources */,
+				720A036725761495005A8466 /* Visible.png in Resources */,
+				720A036525761495005A8466 /* Pass.png in Resources */,
 				727DDEBA256E1B39005F8FF4 /* LeftMenuTableViewCell.xib in Resources */,
+				72A0D66425763FE900BA27A2 /* SignUpViewController.xib in Resources */,
+				720A03612576118C005A8466 /* LoginViewController.xib in Resources */,
 				727DDE99256E159F005F8FF4 /* Assets.xcassets in Resources */,
 				72A57270257508F8000EB59F /* LoadingOrNoRecordView.xib in Resources */,
 				72A572752575094A000EB59F /* ChatListTableViewCell.xib in Resources */,
@@ -465,10 +515,12 @@
 				72A572502574FE8D000EB59F /* Share.png in Resources */,
 				727DDECA256E1EAB005F8FF4 /* Profile.png in Resources */,
 				727DDECE256E1F20005F8FF4 /* NoInternet.png in Resources */,
+				720A036625761495005A8466 /* User.png in Resources */,
 				72A572522574FE8D000EB59F /* Likes.png in Resources */,
 				72A5727D257509DB000EB59F /* senderTableViewCell.xib in Resources */,
 				72A572512574FE8D000EB59F /* Comment.png in Resources */,
 				72A5724A2574F8FF000EB59F /* HomeTableViewCell.xib in Resources */,
+				72A0D66A25764AA700BA27A2 /* ClassifiedCollectionViewCell.xib in Resources */,
 				727DDEE7256E245D005F8FF4 /* pattern-back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +581,7 @@
 				727DDF0A256E3449005F8FF4 /* LGSideMenuGesturesHandler.m in Sources */,
 				729C0773256F753E008FD0B7 /* AllExtensions.swift in Sources */,
 				72A5726B257508D3000EB59F /* ChatListViewController.swift in Sources */,
+				72A0D66925764AA700BA27A2 /* ClassifiedCollectionViewCell.swift in Sources */,
 				727DDE90256E159E005F8FF4 /* AppDelegate.swift in Sources */,
 				727DDF14256E37B8005F8FF4 /* AccountViewController.swift in Sources */,
 				727DDEB4256E1696005F8FF4 /* SplashViewController.swift in Sources */,
@@ -538,9 +591,12 @@
 				72A5728B25751030000EB59F /* ProfileViewController.swift in Sources */,
 				72A5726F257508F8000EB59F /* LoadingOrNoRecordView.swift in Sources */,
 				72A57280257509E6000EB59F /* receiverTableViewCell.swift in Sources */,
+				72A0D66325763FE900BA27A2 /* SignUpViewController.swift in Sources */,
 				727DDF0F256E3449005F8FF4 /* LGSideMenuController-dummy.m in Sources */,
 				727DDEBE256E1C80005F8FF4 /* LeftMenuViewController.swift in Sources */,
+				720A03602576118C005A8466 /* LoginViewController.swift in Sources */,
 				727DDEC6256E1CDE005F8FF4 /* Api.swift in Sources */,
+				72A0D66C2576511A00BA27A2 /* ClassifiedViewController.swift in Sources */,
 				72A572742575094A000EB59F /* ChatListTableViewCell.swift in Sources */,
 				727DDF0E256E3449005F8FF4 /* UIViewController+LGSideMenuController.m in Sources */,
 				727DDF11256E3449005F8FF4 /* LGSideMenuBorderView.m in Sources */,
