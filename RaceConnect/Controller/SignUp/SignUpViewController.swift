@@ -43,7 +43,7 @@ class SignUpViewController: UIViewController {
             
         }else{
             
-            termsBtnHeightCons.constant = 50
+            termsBtnHeightCons.constant = 40
             
         }
         
@@ -70,7 +70,7 @@ class SignUpViewController: UIViewController {
         registerBtn.setTitleColor(.white, for: .normal)
         registerBtn.backgroundColor = .clear
         GeneralMethods.RoundedCorners(shadow: .clear, view: registerBtn)
-        registerBtn.layer.borderWidth = 1
+        registerBtn.layer.borderWidth = 3
         registerBtn.layer.borderColor = GlobalVariables.RedColor.cgColor
         
         loginBtn.setTitle("Already have an account".localized, for: .normal)
@@ -119,7 +119,9 @@ class SignUpViewController: UIViewController {
     
     @IBAction func termsBtnClicked(_ sender: Any) {
         
-        
+        let vc = TermsViewController(nibName: "TermsViewController", bundle: nil)
+        self.navigationController!.pushViewController(vc, animated: true)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
     }
     

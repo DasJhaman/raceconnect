@@ -150,17 +150,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="wcl-ck-wp4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="wcl-ck-wp4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="28A-jX-6p7">
+                                <rect key="frame" x="67.666666666666686" y="286" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="3P9-cR-ojO"/>
+                                    <constraint firstAttribute="width" constant="240" id="aS4-Xp-7gd"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NhS-QQ-0al"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="28A-jX-6p7" firstAttribute="centerY" secondItem="OOp-JS-Og9" secondAttribute="centerY" id="1oX-Bc-luq"/>
                             <constraint firstItem="wcl-ck-wp4" firstAttribute="top" secondItem="OOp-JS-Og9" secondAttribute="top" id="cU1-gS-xgv"/>
                             <constraint firstItem="wcl-ck-wp4" firstAttribute="leading" secondItem="OOp-JS-Og9" secondAttribute="leading" id="dyB-Bu-8RN"/>
                             <constraint firstAttribute="trailing" secondItem="wcl-ck-wp4" secondAttribute="trailing" id="t2y-G9-Qfx"/>
                             <constraint firstAttribute="bottom" secondItem="wcl-ck-wp4" secondAttribute="bottom" id="ttT-Ip-w1G"/>
+                            <constraint firstItem="28A-jX-6p7" firstAttribute="centerX" secondItem="OOp-JS-Og9" secondAttribute="centerX" id="wuv-7z-DYS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xWH-HD-guf"/>
@@ -467,11 +476,11 @@
             </objects>
             <point key="canvasLocation" x="4700" y="-590.39408866995075"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="wGP-cQ-EPp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ogt-8k-bXZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="home" selectedImage="homeSelected" id="KeQ-uO-m5U"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="homeSelected" id="KeQ-uO-m5U"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dek-iB-gD1">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -527,11 +536,11 @@
             </objects>
             <point key="canvasLocation" x="4700" y="1412.807881773399"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Group-->
         <scene sceneID="uI5-nJ-Sna">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fAj-k0-sgi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="chat" id="uVS-1S-MGB"/>
+                    <tabBarItem key="tabBarItem" title="Group" image="chat" selectedImage="chatSelected" id="uVS-1S-MGB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X9Y-nG-vZu">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -546,11 +555,11 @@
             </objects>
             <point key="canvasLocation" x="3757.5999999999999" y="-590.39408866995075"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Events-->
         <scene sceneID="gXN-pX-Y1X">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HEz-Hl-M1z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="menu" id="Znz-fk-ink"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="menu" selectedImage="menuSelected" id="Znz-fk-ink"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Whw-eF-xnJ">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -565,11 +574,11 @@
             </objects>
             <point key="canvasLocation" x="3757.5999999999999" y="-1255.4187192118227"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Post-->
         <scene sceneID="5Zo-wt-n78">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UmH-Jm-aGR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="profile" id="7Hu-dS-Bf2"/>
+                    <tabBarItem key="tabBarItem" title="Post" image="profile" selectedImage="profileSelected" id="7Hu-dS-Bf2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X9o-2a-Qod">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -584,11 +593,11 @@
             </objects>
             <point key="canvasLocation" x="3757.5999999999999" y="751.47783251231533"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Meets-->
         <scene sceneID="DBg-Mx-cqv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AzT-V4-AGp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="notification" id="9ye-b8-Ph2"/>
+                    <tabBarItem key="tabBarItem" title="Meets" image="notification" selectedImage="notificationSelected" id="9ye-b8-Ph2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gMJ-jd-MAu">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -686,16 +695,21 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Background" width="1125" height="2436"/>
         <image name="Profile.png" width="196" height="196"/>
         <image name="Send.png" width="133" height="133"/>
-        <image name="Splash" width="2733" height="2732"/>
+        <image name="TransparentLogo" width="1025" height="1024"/>
         <image name="chat" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="chatSelected" width="42.666667938232422" height="42.666667938232422"/>
         <image name="home" width="42.666667938232422" height="42.666667938232422"/>
         <image name="homeSelected" width="42.666667938232422" height="42.666667938232422"/>
         <image name="menu" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="menuSelected" width="42.666667938232422" height="42.666667938232422"/>
         <image name="notification" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="notificationSelected" width="42.666667938232422" height="42.666667938232422"/>
         <image name="pattern-back.png" width="1242" height="2208"/>
         <image name="profile" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="profileSelected" width="42.666667938232422" height="42.666667938232422"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

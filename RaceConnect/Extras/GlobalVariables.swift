@@ -28,15 +28,15 @@ class GlobalVariables: NSObject {
     public static var CurrentView = UIViewController()
     
     //Errand Africa Google Key
-    static var GoogleMapsKey: String =  "AIzaSyDtPNBBUcHvrBV7_LI84PiKVJYymWgNGUA"
-    static var BaseUrl: String =        "http://sh004.hostgator.tempwebhost.net/~gigs1wl9/appadmin/api.php"
-    static var ImageBaseUrl: String =   "http://sh004.hostgator.tempwebhost.net/~gigs1wl9/appadmin/images/"
+    static var GoogleMapsKey: String =  ""
+    static var BaseUrl: String =        "http://sh004.net/~gigs1wl9/"
+    static var ImageBaseUrl: String =   "http://sh004.net/~gigs1wl9/"
     
     
     
     
 
-    public static var AppColor = UIColor.init(red: 17.0/255.0, green:79.0/255.0, blue:160.0/255.0, alpha:1.0)
+    public static var AppColor = UIColor.init(red: 0.0/255.0, green:0.0/255.0, blue:0.0/255.0, alpha:1.0)
     
     
     public static var TitleFontColor = UIColor.init(red: 70.0/255.0, green:70.0/255.0, blue:70.0/255.0, alpha:1.0)

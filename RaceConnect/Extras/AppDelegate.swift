@@ -26,9 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().isTranslucent = false
                 
         
-        //UITabBar.appearance().unselectedItemTintColor = GlobalVariables.LightGrayColor
-        //UITabBar.appearance().tintColor = GlobalVariables.AppColor
+        UITabBar.appearance().unselectedItemTintColor = GlobalVariables.LightGrayColor
+        UITabBar.appearance().tintColor = .white
         //UIApplication.shared.statusBarUIView?.backgroundColor = GlobalVariables.AppColor
+        
+        UITabBar.appearance().barTintColor = UIColor.black
         
         return true
     }

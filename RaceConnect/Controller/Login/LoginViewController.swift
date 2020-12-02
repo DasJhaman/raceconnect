@@ -46,7 +46,7 @@ class LoginViewController: UIViewController {
             
         }else{
             
-            forgotBtnHeightCons.constant = 50
+            forgotBtnHeightCons.constant = 40
             
         }
         
@@ -68,7 +68,7 @@ class LoginViewController: UIViewController {
         signInBtn.setTitleColor(.white, for: .normal)
         signInBtn.backgroundColor = .clear
         GeneralMethods.RoundedCorners(shadow: .clear, view: signInBtn)
-        signInBtn.layer.borderWidth = 1
+        signInBtn.layer.borderWidth = 3
         signInBtn.layer.borderColor = GlobalVariables.RedColor.cgColor
         
         registerBtn.setTitle("Need an account".localized, for: .normal)

@@ -31,11 +31,11 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ePc-D0-sxQ">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZeZ-A0-kSA">
-                    <rect key="frame" x="117" y="140" width="180" height="160"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZeZ-A0-kSA">
+                    <rect key="frame" x="87" y="76" width="240" height="240"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="160" id="B5B-Xe-ZLJ"/>
-                        <constraint firstAttribute="width" constant="180" id="qt1-Me-7JP"/>
+                        <constraint firstAttribute="height" constant="240" id="B5B-Xe-ZLJ"/>
+                        <constraint firstAttribute="width" constant="240" id="qt1-Me-7JP"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXn-pC-2IU">
@@ -109,7 +109,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz5-Xh-k58">
-                    <rect key="frame" x="24" y="504" width="366" height="40"/>
+                    <rect key="frame" x="24" y="520" width="366" height="40"/>
                     <color key="backgroundColor" red="0.035037647929999999" green="0.30983558300000003" blue="0.62737053629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="ueL-aF-UZZ"/>
@@ -123,7 +123,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SY7-tf-B23">
-                    <rect key="frame" x="141.5" y="556" width="131" height="30"/>
+                    <rect key="frame" x="141.5" y="572" width="131" height="30"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" title="Need an account?">
                         <color key="titleColor" red="0.035037647929999999" green="0.30983558300000003" blue="0.62737053629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -151,12 +151,12 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="ePc-D0-sxQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8IN-DG-iAa"/>
-                <constraint firstItem="nXn-pC-2IU" firstAttribute="top" secondItem="ZeZ-A0-kSA" secondAttribute="bottom" constant="48" id="9fn-Zf-wJA"/>
-                <constraint firstItem="Lz5-Xh-k58" firstAttribute="top" secondItem="ftx-FS-0Ev" secondAttribute="bottom" constant="32" id="Ag1-gP-Mg8"/>
+                <constraint firstItem="nXn-pC-2IU" firstAttribute="top" secondItem="ZeZ-A0-kSA" secondAttribute="bottom" constant="32" id="9fn-Zf-wJA"/>
+                <constraint firstItem="Lz5-Xh-k58" firstAttribute="top" secondItem="ftx-FS-0Ev" secondAttribute="bottom" constant="48" id="Ag1-gP-Mg8"/>
                 <constraint firstItem="ftx-FS-0Ev" firstAttribute="top" secondItem="nXn-pC-2IU" secondAttribute="bottom" constant="24" id="BC4-V8-RnV"/>
                 <constraint firstAttribute="bottom" secondItem="4Um-ZF-f7K" secondAttribute="bottom" id="GNz-A6-pr3"/>
                 <constraint firstAttribute="trailing" secondItem="ePc-D0-sxQ" secondAttribute="trailing" id="Ib3-Y1-89U"/>
-                <constraint firstItem="ZeZ-A0-kSA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="96" id="K3A-a9-jex"/>
+                <constraint firstItem="ZeZ-A0-kSA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="K3A-a9-jex"/>
                 <constraint firstAttribute="trailing" secondItem="Lz5-Xh-k58" secondAttribute="trailing" constant="24" id="MEA-CL-UkM"/>
                 <constraint firstItem="4Um-ZF-f7K" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MgS-50-Mny"/>
                 <constraint firstItem="SY7-tf-B23" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NkU-hh-0ZI"/>
@@ -175,9 +175,9 @@
         </view>
     </objects>
     <resources>
-        <image name="AppLogo" width="1024" height="1024"/>
         <image name="Background" width="1125" height="2436"/>
         <image name="Pass.png" width="54" height="52"/>
+        <image name="TransparentLogo" width="1025" height="1024"/>
         <image name="User.png" width="54" height="52"/>
         <image name="Visible.png" width="72" height="52"/>
         <systemColor name="systemBackgroundColor">

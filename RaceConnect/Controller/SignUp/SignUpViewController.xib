@@ -32,15 +32,15 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="zee-Jp-T96">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2kh-fi-sBY">
-                    <rect key="frame" x="117" y="140" width="180" height="160"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2kh-fi-sBY">
+                    <rect key="frame" x="87" y="76" width="240" height="240"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="160" id="A8r-XN-mXU"/>
-                        <constraint firstAttribute="width" constant="180" id="Vag-wL-Kvu"/>
+                        <constraint firstAttribute="height" constant="240" id="A8r-XN-mXU"/>
+                        <constraint firstAttribute="width" constant="240" id="Vag-wL-Kvu"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BV-jC-tic">
-                    <rect key="frame" x="24" y="348" width="366" height="50"/>
+                    <rect key="frame" x="24" y="316" width="366" height="50"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pass.png" translatesAutoresizingMaskIntoConstraints="NO" id="MQF-Pn-d32">
                             <rect key="frame" x="16" y="13" width="24" height="24"/>
@@ -79,7 +79,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3As-5Z-bZe">
-                    <rect key="frame" x="24" y="414" width="366" height="50"/>
+                    <rect key="frame" x="24" y="382" width="366" height="50"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User.png" translatesAutoresizingMaskIntoConstraints="NO" id="mr5-Yh-9bl">
                             <rect key="frame" x="16" y="13" width="24" height="24"/>
@@ -107,7 +107,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2w-6B-0QB">
-                    <rect key="frame" x="24" y="480" width="366" height="50"/>
+                    <rect key="frame" x="24" y="448" width="366" height="50"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pass.png" translatesAutoresizingMaskIntoConstraints="NO" id="K8J-I8-2ZH">
                             <rect key="frame" x="16" y="13" width="24" height="24"/>
@@ -149,7 +149,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJa-ht-yHr">
-                    <rect key="frame" x="24" y="562" width="366" height="40"/>
+                    <rect key="frame" x="24" y="546" width="366" height="40"/>
                     <color key="backgroundColor" red="0.035037647929999999" green="0.30983558300000003" blue="0.62737053629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="cmP-a7-gJL"/>
@@ -163,7 +163,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBl-ud-BHT">
-                    <rect key="frame" x="113" y="614" width="188" height="30"/>
+                    <rect key="frame" x="113" y="598" width="188" height="30"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <state key="normal" title="Already have an account?">
                         <color key="titleColor" red="0.035037647929999999" green="0.30983558300000003" blue="0.62737053629999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -206,21 +206,21 @@
                 <constraint firstAttribute="trailing" secondItem="KJa-ht-yHr" secondAttribute="trailing" constant="24" id="cBo-m5-RqV"/>
                 <constraint firstItem="KJa-ht-yHr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="evF-sn-fmn"/>
                 <constraint firstItem="a2w-6B-0QB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="fGD-oT-vGh"/>
-                <constraint firstItem="1BV-jC-tic" firstAttribute="top" secondItem="2kh-fi-sBY" secondAttribute="bottom" constant="48" id="hhl-hC-qyL"/>
+                <constraint firstItem="1BV-jC-tic" firstAttribute="top" secondItem="2kh-fi-sBY" secondAttribute="bottom" id="hhl-hC-qyL"/>
                 <constraint firstAttribute="trailing" secondItem="1BV-jC-tic" secondAttribute="trailing" constant="24" id="hqH-Tn-guB"/>
                 <constraint firstItem="2kh-fi-sBY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jyR-Py-fUl"/>
                 <constraint firstItem="BBl-ud-BHT" firstAttribute="top" secondItem="KJa-ht-yHr" secondAttribute="bottom" constant="12" id="pd7-ZC-r8K"/>
                 <constraint firstItem="zee-Jp-T96" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yQB-na-3ri"/>
-                <constraint firstItem="2kh-fi-sBY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="96" id="z4L-Ul-YMu"/>
-                <constraint firstItem="KJa-ht-yHr" firstAttribute="top" secondItem="a2w-6B-0QB" secondAttribute="bottom" constant="32" id="zTd-0G-Dte"/>
+                <constraint firstItem="2kh-fi-sBY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="z4L-Ul-YMu"/>
+                <constraint firstItem="KJa-ht-yHr" firstAttribute="top" secondItem="a2w-6B-0QB" secondAttribute="bottom" constant="48" id="zTd-0G-Dte"/>
             </constraints>
             <point key="canvasLocation" x="57.971014492753625" y="53.571428571428569"/>
         </view>
     </objects>
     <resources>
-        <image name="AppLogo" width="1024" height="1024"/>
         <image name="Background" width="1125" height="2436"/>
         <image name="Pass.png" width="54" height="52"/>
+        <image name="TransparentLogo" width="1025" height="1024"/>
         <image name="User.png" width="54" height="52"/>
         <image name="Visible.png" width="72" height="52"/>
     </resources>

@@ -17,17 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="RG9-gq-qIh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="RG9-gq-qIh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TransparentLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zKK-nc-DIS">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="03j-lR-zSB"/>
+                                    <constraint firstAttribute="height" constant="240" id="1ec-On-kna"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="zKK-nc-DIS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2sN-73-CpV"/>
                             <constraint firstItem="RG9-gq-qIh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="CpX-ax-YbS"/>
                             <constraint firstAttribute="bottom" secondItem="RG9-gq-qIh" secondAttribute="bottom" id="P38-gG-2gF"/>
                             <constraint firstAttribute="trailing" secondItem="RG9-gq-qIh" secondAttribute="trailing" id="Rbc-O6-FDh"/>
                             <constraint firstItem="RG9-gq-qIh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cBr-Gv-v0T"/>
+                            <constraint firstItem="zKK-nc-DIS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hO6-H2-ZxK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,7 +46,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Splash" width="2733" height="2732"/>
+        <image name="Background" width="1125" height="2436"/>
+        <image name="TransparentLogo" width="1025" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
