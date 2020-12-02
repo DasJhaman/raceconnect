@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MeetupTableViewCell" customModule="RaceConnect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQr-fw-6GA">
+                        <rect key="frame" x="16" y="10" width="288" height="104"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My MeetUp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovJ-Zp-iyh">
+                                <rect key="frame" x="8" y="8" width="82" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="6Np-9y-oXU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7n-B6-cem">
+                                <rect key="frame" x="8" y="34" width="272" height="62"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ovJ-Zp-iyh" firstAttribute="leading" secondItem="xQr-fw-6GA" secondAttribute="leading" constant="8" id="2en-RR-s22"/>
+                            <constraint firstItem="ovJ-Zp-iyh" firstAttribute="top" secondItem="xQr-fw-6GA" secondAttribute="top" constant="8" id="Egf-x7-pat"/>
+                            <constraint firstAttribute="trailing" secondItem="e7n-B6-cem" secondAttribute="trailing" constant="8" id="Qud-c5-BWg"/>
+                            <constraint firstAttribute="bottom" secondItem="e7n-B6-cem" secondAttribute="bottom" constant="8" id="WJW-iM-ngy"/>
+                            <constraint firstItem="e7n-B6-cem" firstAttribute="top" secondItem="ovJ-Zp-iyh" secondAttribute="bottom" constant="8" id="WXi-QI-Dkp"/>
+                            <constraint firstItem="e7n-B6-cem" firstAttribute="leading" secondItem="xQr-fw-6GA" secondAttribute="leading" constant="8" id="dq6-7c-8aM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xQr-fw-6GA" secondAttribute="trailing" constant="16" id="BfV-JF-dyy"/>
+                    <constraint firstItem="xQr-fw-6GA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="GBd-8b-4sX"/>
+                    <constraint firstAttribute="bottom" secondItem="xQr-fw-6GA" secondAttribute="bottom" constant="6" id="fiE-gB-uBu"/>
+                    <constraint firstItem="xQr-fw-6GA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gQ5-0B-SCM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contantView" destination="xQr-fw-6GA" id="Df4-L4-CCm"/>
+            </connections>
+            <point key="canvasLocation" x="141" y="37"/>
+        </tableViewCell>
+    </objects>
+</document>

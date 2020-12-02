@@ -17,6 +17,13 @@
 		7275126F257793C400AB309B /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7275126D257793C400AB309B /* TermsViewController.xib */; };
 		727512712577948200AB309B /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 727512702577948200AB309B /* back_arrow.png */; };
 		727512732577968F00AB309B /* ShareIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 727512722577968F00AB309B /* ShareIcon.png */; };
+		7275127D2577AE9E00AB309B /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7275127C2577AE9E00AB309B /* EventsViewController.swift */; };
+		727512812577AF3500AB309B /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7275127F2577AF3500AB309B /* EventsTableViewCell.swift */; };
+		727512822577AF3500AB309B /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727512802577AF3500AB309B /* EventsTableViewCell.xib */; };
+		727512872577B22D00AB309B /* MeetupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727512852577B22D00AB309B /* MeetupTableViewCell.swift */; };
+		727512882577B22D00AB309B /* MeetupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727512862577B22D00AB309B /* MeetupTableViewCell.xib */; };
+		7275128A2577B28F00AB309B /* MeetsUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727512892577B28F00AB309B /* MeetsUpViewController.swift */; };
+		7275128C2577B53D00AB309B /* MyPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7275128B2577B53D00AB309B /* MyPostViewController.swift */; };
 		727DDE90256E159E005F8FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727DDE8F256E159E005F8FF4 /* AppDelegate.swift */; };
 		727DDE97256E159E005F8FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727DDE95256E159E005F8FF4 /* Main.storyboard */; };
 		727DDE99256E159F005F8FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727DDE98256E159F005F8FF4 /* Assets.xcassets */; };
@@ -98,6 +105,13 @@
 		7275126D257793C400AB309B /* TermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
 		727512702577948200AB309B /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
 		727512722577968F00AB309B /* ShareIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareIcon.png; sourceTree = "<group>"; };
+		7275127C2577AE9E00AB309B /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		7275127F2577AF3500AB309B /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		727512802577AF3500AB309B /* EventsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
+		727512852577B22D00AB309B /* MeetupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupTableViewCell.swift; sourceTree = "<group>"; };
+		727512862577B22D00AB309B /* MeetupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetupTableViewCell.xib; sourceTree = "<group>"; };
+		727512892577B28F00AB309B /* MeetsUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetsUpViewController.swift; sourceTree = "<group>"; };
+		7275128B2577B53D00AB309B /* MyPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostViewController.swift; sourceTree = "<group>"; };
 		727DDE8C256E159E005F8FF4 /* RaceConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727DDE8F256E159E005F8FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727DDE96256E159E005F8FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -206,6 +220,24 @@
 			path = "Terms&Condition";
 			sourceTree = "<group>";
 		};
+		7275127E2577AF2500AB309B /* EventsCell */ = {
+			isa = PBXGroup;
+			children = (
+				7275127F2577AF3500AB309B /* EventsTableViewCell.swift */,
+				727512802577AF3500AB309B /* EventsTableViewCell.xib */,
+			);
+			path = EventsCell;
+			sourceTree = "<group>";
+		};
+		727512842577B21A00AB309B /* MeetsUp */ = {
+			isa = PBXGroup;
+			children = (
+				727512852577B22D00AB309B /* MeetupTableViewCell.swift */,
+				727512862577B22D00AB309B /* MeetupTableViewCell.xib */,
+			);
+			path = MeetsUp;
+			sourceTree = "<group>";
+		};
 		727DDE83256E159E005F8FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +323,9 @@
 				727DDF13256E37B8005F8FF4 /* AccountViewController.swift */,
 				72A5728A25751030000EB59F /* ProfileViewController.swift */,
 				72A0D66B2576511A00BA27A2 /* ClassifiedViewController.swift */,
+				7275127C2577AE9E00AB309B /* EventsViewController.swift */,
+				727512892577B28F00AB309B /* MeetsUpViewController.swift */,
+				7275128B2577B53D00AB309B /* MyPostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,6 +342,8 @@
 		727DDEAC256E1630005F8FF4 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				727512842577B21A00AB309B /* MeetsUp */,
+				7275127E2577AF2500AB309B /* EventsCell */,
 				72A57279257509D1000EB59F /* ReceiverCell */,
 				72A57278257509CB000EB59F /* SenderCell */,
 				72A5727125750942000EB59F /* ChatList */,
@@ -529,10 +566,12 @@
 				727DDF22256E5E9E005F8FF4 /* Localizable.strings in Resources */,
 				72A57281257509E6000EB59F /* receiverTableViewCell.xib in Resources */,
 				727DDE97256E159E005F8FF4 /* Main.storyboard in Resources */,
+				727512822577AF3500AB309B /* EventsTableViewCell.xib in Resources */,
 				72A5728325750A7A000EB59F /* Send.png in Resources */,
 				7275126F257793C400AB309B /* TermsViewController.xib in Resources */,
 				727DDECA256E1EAB005F8FF4 /* Profile.png in Resources */,
 				727DDECE256E1F20005F8FF4 /* NoInternet.png in Resources */,
+				727512882577B22D00AB309B /* MeetupTableViewCell.xib in Resources */,
 				720A036625761495005A8466 /* User.png in Resources */,
 				72A572522574FE8D000EB59F /* Likes.png in Resources */,
 				727512732577968F00AB309B /* ShareIcon.png in Resources */,
@@ -597,6 +636,7 @@
 				727DDEEF256E2F49005F8FF4 /* MainViewController.swift in Sources */,
 				72A5727C257509DB000EB59F /* senderTableViewCell.swift in Sources */,
 				727DDF10256E3449005F8FF4 /* LGSideMenuController.m in Sources */,
+				7275127D2577AE9E00AB309B /* EventsViewController.swift in Sources */,
 				727DDF0A256E3449005F8FF4 /* LGSideMenuGesturesHandler.m in Sources */,
 				729C0773256F753E008FD0B7 /* AllExtensions.swift in Sources */,
 				72A5726B257508D3000EB59F /* ChatListViewController.swift in Sources */,
@@ -608,18 +648,22 @@
 				727DDEC4256E1CDE005F8FF4 /* Localizable.swift in Sources */,
 				727DDEEA256E259E005F8FF4 /* HomeViewController.swift in Sources */,
 				72A5728B25751030000EB59F /* ProfileViewController.swift in Sources */,
+				727512812577AF3500AB309B /* EventsTableViewCell.swift in Sources */,
 				72A5726F257508F8000EB59F /* LoadingOrNoRecordView.swift in Sources */,
 				72A57280257509E6000EB59F /* receiverTableViewCell.swift in Sources */,
 				72A0D66325763FE900BA27A2 /* SignUpViewController.swift in Sources */,
 				727DDF0F256E3449005F8FF4 /* LGSideMenuController-dummy.m in Sources */,
 				727DDEBE256E1C80005F8FF4 /* LeftMenuViewController.swift in Sources */,
+				7275128C2577B53D00AB309B /* MyPostViewController.swift in Sources */,
 				720A03602576118C005A8466 /* LoginViewController.swift in Sources */,
 				727DDEC6256E1CDE005F8FF4 /* Api.swift in Sources */,
 				72A0D66C2576511A00BA27A2 /* ClassifiedViewController.swift in Sources */,
 				72A572742575094A000EB59F /* ChatListTableViewCell.swift in Sources */,
 				727DDF0E256E3449005F8FF4 /* UIViewController+LGSideMenuController.m in Sources */,
 				727DDF11256E3449005F8FF4 /* LGSideMenuBorderView.m in Sources */,
+				727512872577B22D00AB309B /* MeetupTableViewCell.swift in Sources */,
 				72A572492574F8FF000EB59F /* HomeTableViewCell.swift in Sources */,
+				7275128A2577B28F00AB309B /* MeetsUpViewController.swift in Sources */,
 				727DDEB9256E1B39005F8FF4 /* LeftMenuTableViewCell.swift in Sources */,
 				727DDF0B256E3449005F8FF4 /* LGSideMenuSegue.m in Sources */,
 				72A57277257509B6000EB59F /* ChatViewController.swift in Sources */,
